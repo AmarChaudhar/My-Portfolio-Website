@@ -495,7 +495,7 @@ section.contact .btn-wrapper {
 footer {
     background: var(--dark);
     text-align: center;
-    padding: 5rem 0;
+    padding: 3rem 0;
 }
 
 footer .footer-logo {
@@ -520,6 +520,9 @@ footer .copyright {
 .site-main-wrapper {
     position: relative;
 }
+
+
+
 
 /* Mobile Navigation Styles */
 .hamberger {
