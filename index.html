@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+        </button>
+        <header>
+            <div class="container">
+                <nav id="main-nav" class="flex items-center justify-between">
+                    <div class="left flex items-center">
+                      
+                        <div>
+                            <a href=" ">Home</a>
+                            <a href="#freelancer">About</a>
+                            <a href="#services">Services</a>
+                            <a href="#work">Work</a>
+
+                        </div>
+                    </div>
+                    <div class="right">
+                        <button class="btn btn-primary">Contact</button>
+                    </div>
+                </nav>
+                <div class="hero flex items-center justify-between">
+                    <div class="left flex-1 flex justify-center">
+                        <img src="./images/developer-man.png" alt="">
+                    </div>
+                    <div class="right flex-1">
+                        <h6 class="typewriter-text">WELCOME TO MY PORTFOLIO <span class="emoji">🙏</span></h6>
+                        <h3>Hello! I’m Amar Kumar.</h3>
+                        <p>I'm a pre-final year student in Computer Science & Engineering, passionate about becoming a Software Developer. Armed with robust problem-solving skills, I thrive on challenges. Eager to explore and learn new technologies, I'm on a journey to turn my dreams into code."  Happy programmer🚀   </p>
+                        <div class="social">
+                            <a href="https://www.linkedin.com/in/amarkumar123/" target="_blank">
+                                <img src="images/linkedin-in.svg" alt="LinkedIn">
+                            </a>
+                            <a href="https://github.com/AmarChaudhar" target="_blank">
+                                <img src="images/github.svg" alt="GitHub">
+                            </a>
+                            <a href="" target="_blank">
+                                <img src="images/twitter.svg" alt="Twitter">
+                            </a>
+                        </div>
+                        
+                        
+                        </div>
+                        
+                        
+                    </div>
+                
+                </div>
+            </div>
+    </div>
+    <script>
+        // Function to start the typewriter animation
+        function startTypewriterAnimation() {
+            const typewriterText = document.querySelector('.typewriter-text');
+            typewriterText.style.animation = 'typing 4s steps(31) infinite';
+        }
+    
+        // Start the typewriter animation when the page loads
+        window.addEventListener('load', startTypewriterAnimation);
+    </script>
+    
+    </header>
+
+   
+    <section id="services" class="services">
+    <div class="container">
+        <h1 class="section-heading"><span>What I Can Do</span></h1>
+        <p>Discover the range of services I offer to help you achieve your goals and enhance your online presence:</p>
+        <div class="card-wrapper">
+            <div class="card" onclick="flipCard(this)">
+                <div class="inner-card">
+                    <div class="front-card">
+                        <img src="./images/brush.svg" alt="">
+                        <h1>Mobile App Development</h1>
+                        <p>Turn your ideas into functional and user-friendly mobile apps that captivate your audience.</p>
+                    </div>
+                    <div class="back-card">
+                        <h1>Hire Me</h1>
+                        <ul>
+                            <li>Flutter dart </li>
+                            <li>Firebase Auth/cloud</li>
+                            <li>Rest API</li>
+                        </ul>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="card" onclick="flipCard(this)">
+                <div class="inner-card">
+                    <div class="front-card">
+                        <img src="./images/brush.svg" alt="">
+                        <h1>Apps Design</h1>
+                <p>"Transform your app into a user favorite by blending aesthetics with user-friendly design. Seamlessly combine visual appeal and functionality for a delightful user experience."
+                </p>
+                    </div>
+                    <div class="back-card">
+                        <h1>Hire Me</h1>
+                        <ul>
+                            <li>Modern UI/UX Designing</li>
+                            <li>Mobile & Web designs</li>
+                            <li>Interactive UI designs</li>
+                            <li>Responsiviness</li>
+                        </ul>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="card" onclick="flipCard(this)">
+                <div class="inner-card">
+                    <div class="front-card">
+                        <img src="./images/brush.svg" alt="">
+                        <h1>Problem Solving</h1>
+                       <p>With excellent problem-solving skills, I understand problems thoroughly and implement effective solutions.</p>
+
+                    </div>
+                    <div class="back-card">
+                        <h1>Hire Me</h1>
+                        <ul>
+                        <li>-Solved 80+ Q. on LeetCode</li>
+                        <li>-Solved 80+ Q. on GeeksforGeeks</li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="card" onclick="flipCard(this)">
+                <div class="inner-card">
+                    <div class="front-card">
+                        <img src="./images/brush.svg" alt="">
+                        <h1>GitHub</h1>
+                        <p>Open source GitHub Projects</p>
+                    </div>
+                    <div class="back-card">
+                        <h1>Hire Me</h1>
+                        <ul>
+                            <li>Awesome README.MD</li>
+                            <li>Well documented</li>
+                            <li>Header images and more...</li>
+                        </ul>
+                </div>
+            </div>
+            
+            <!-- Add more cards here -->
+        </div>
+    </div>
+</section>
+
+
+
+    <section class="freelancer">
+        <h1>Eager to Contribute as a Fresh Talent</h1>
+        <p>Passionate and motivated, I bring fresh perspectives, adaptability, and a strong desire to learn to your team.</p>
+        <a href="https://drive.google.com/file/d/1Xg5QmpZ1sY_oQXU4hIGYj0VXCZ3Y1xmg/view" class="btn btn-primary" download>View My Resume</a>
+    </section>
+    
+    
+    <section id="work" class="work">
+        <div class="container">
+            <h1 class="section-heading"><span>Our</span> Works</h1>
+            <p>Explore a selection of our high-quality app development projects that showcase our commitment to excellence:</p>
+    
+            <div class="card-wrapper">
+                <div class="card">
+                    <div class="overlay">
+                        <span>Category</span>
+                        <a href="#">Web Scrping App(Home)</a>
+                    </div>
+                    <img src="./images/User Interface in Khoz.png" alt="">
+                </div>
+                <div class="card">
+                    <div class="overlay">
+                        <span>Category</span>
+                        <a href="#">Web Scrping App(Apply Theme)</a>
+                       
+                    </div>
+                    <img src="./images/theme.png" alt="">
+                </div>
+                <div class="card">
+                    <div class="overlay">
+                        <span>Category</span>
+                        <a href="#">Web Scrping App(Three dot features)</a>
+                    </div>
+                    <img src="./images/three dot.png" alt="">
+                </div>
+                <div class="card">
+                    <div class="overlay">
+                        <span>Category</span>
+                        <a href="#">Meals</a>
+                    </div>
+                    <img src="./images/meals.png" alt="">
+                </div>
+                <div class="card">
+                    <div class="overlay">
+                        <span>Category</span>
+                        <a href="#">Meals(access)</a>
+                    </div>
+                    <img src="./images/chart meals.png" alt="">
+                </div>
+                <div class="card">
+                    <div class="overlay">
+                        <span>Category</span>
+                        <a href="#">Meals(Filters)</a>
+                    </div>
+                    <img src="./images/filter meals.png" alt="">
+                </div>
+                <div class="card">
+                    <div class="overlay">
+                        <span>Category</span>
+                        <a href="#">Meals (about)</a>
+                    </div>
+                    <img src="./images/menu meals.png" alt="">
+                </div>
+                <div class="card">
+                    <div class="overlay">
+                        <span>Category</span>
+                        <a href="#">Shopping App(add section)</a>
+                    </div>
+                    <img src="./images/shopping.png" alt="">
+                </div>
+                <div class="card">
+                    <div class="overlay">
+                        <span>Category</span>
+                        <a href="#">Placement App</a>
+                    </div>
+                    <img src="./images/placement app.png" alt="">
+                </div>
+                <div class="card">
+                    <div class="overlay">
+                        <span>Category</span>
+                        <a href="#">Placement (App Login)</a>
+                    </div>
+                    <img src="./images/login.png" alt="">
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+    <section class="contact">
+        <div class="container">
+            <h1 class="section-heading">Contact <span>Us</span></h1>
+<p>Connect with us to explore how we can create a high-quality, clean Apps tailored to your business needs and solutions. We're here to help you succeed online.</p>
+
+            <div class="card-wrapper">
+                <a href="https://www.example.com/link-to-location-page" class="card">
+                    <img src="./images/house-solid.svg" alt="">
+                    <h1>Location</h1>
+                    <!-- <h6>Jawa Rewa(MP)</h6> -->
+                </a>
+                <a href="mailto:ak1556425@gmail.com" class="card">
+                    <img src="./images/envelope-solid.svg" alt="">
+                    <h1>Email Us At</h1>
+                    <!-- <h6>ak1556425@gmail.com</h6> -->
+                </a>
+                <a href="https://www.linkedin.com/in/amarkumar123/" class="card">
+                    <img src="./images/linkedin.svg" alt="">
+                    <h1>Linkedin</h1>
+                    <!-- <h6>https://www.linkedin.com/in/amarkumar123/</h6> -->
+                </a>
+            </div>
+            
+        </div>
+    </section>
+    <footer>
+        <!-- <img class="footer-logo" src="./images/logo-2.svg" alt=""> -->
+        <div class="copyright">
+            <!-- Copyright © 2023 -->
+            Made By Amar👋🤎2023
+            <!-- <h4>Made By Amar👋🤎</h4> -->
+        </div>
+    </footer>
+    </div>
+     
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
